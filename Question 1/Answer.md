@@ -85,7 +85,7 @@ For the usecase considered, here are the major requirements for media storage
 2. Profile Images - For this usecase, a database blob storage might be more effecient since the images and inherently users are heavily indexed on `id` and other fields, making access faster. Also, since the profile picture is uploaded on the web application, size of the image can be restricted, thereby ensuring low latency for queries. 
 
 
-## 4. Where would you deploy your application and which web server would you use and why?
+## 5. Where would you deploy your application and which web server would you use and why?
 
 A cloud based solution would be the most optimal solution to deployment since we would also use peripheral services like Object storage, VPNs, etc. Considering cloud based storage, here are the choices of server/deployment technologies I would use
 
